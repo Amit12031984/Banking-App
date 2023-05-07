@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-div">
+            <h2 class="signin-heading">Sign In</h2>
+            <form class="login-inner-div">
+                <label class="login-label">User Name</label><br>
+                <input type="text" class="login-input" id="username" required><br>
+                <label class="login-label">Password</label><br>
+                <input type="password" class="login-input" id="password" required><br>
+                <button class="login-btn" id="login_btn">Login</button>
+            </form>
+            <h3 class="login-error"></h3>
+        </div>
+    </div>
+    <script type="module" src="./loginScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn
+{
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background-color: rgb(253, 99, 42);
+}
+.bottom-cotainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.main-heading
+{
+    font-size: 4rem;
+    color: coral;
+}
+.login-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-div
+{
+    height: 23rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30rem;
+}
+.signin-heading
+{
+    text-align: center;
+    background-color: coral;
+    font-size: 2rem;
+}
+.login-input
+{
+    margin-bottom: 1rem;
+    width: 80%;
+}
+.login-btn
+{
+    margin: 0 auto;
+}
+.login-inner-div
+{
+    margin-left: 1.5rem;
+}
+.login-label
+{
+    font-size: 1.5rem;
+}
+.login-error
+{
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.nav
+{
+    display: flex;
+    background-color: coral;
+    justify-content: flex-end;
+}
+.list-item
+{
+    display: inline-block;
+}
+.nav-link
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.nav-link:hover
+{
+    color: white;
+}
+#username , #currentdatetime
+{
+    margin-right: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+#currentdatetime
+{
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.bottom-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+}
+#transactiontable
+{
+    margin-top: 20px;
+    font-size: 3rem;
+    border: 2px solid black;
+}
+table
+{
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 2px solid black;
+  }
+.accountview-div
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 2rem;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+#page-heading
+{
+    font-size: 3rem;
+    color: coral;
+}
